@@ -4,7 +4,6 @@ import axios from "axios";
 
 function Countries() {
   const [data, setData] = useState();
-  // return <LoadingIndicator />;
 
   //  const EditDescription = async (form: any) => {
   //    try {
@@ -44,14 +43,7 @@ function Countries() {
     <div>
       <h1 data-testid="countries-header">Countries List</h1>
       <div data-testid="countries-container">
-        {/* Countries Card */}
-        {/* {data ? (
-          data.map((e, i) => {
-            return <div key={i}>Countries : {data}</div>;
-          })
-        ) : (
-          <LoadingIndicator />
-        )} */}
+      
         {data ? (
           data.map((e, i) => {
             return (
